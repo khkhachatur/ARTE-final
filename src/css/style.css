@@ -1,0 +1,154 @@
+html {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin: 0;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/* PROMO */
+
+.promo {
+  background: #d9d9d9;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promo__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+.promo__text {
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
+}
+.promo__btn {
+  color: #ffffff;
+  background: #000000;
+  border: none;
+  font-size: 30px;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+.promo__btn:hover {
+  transition: 0.6s all;
+  scale: 1.05;
+}
+
+/* INTRO */
+
+.intro {
+  margin-top: 65px;
+}
+.intro__title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.intro__list {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+img {
+  width: 350px;
+  height: 100%;
+}
+.intro__text {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* ABOUT */
+
+.about {
+  margin-top: 80px;
+}
+.about__list {
+  list-style-type: none;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+li {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* OBJECTIVE */
+
+.objective {
+  margin-top: 60px;
+}
+.objective__text {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+.objective__subtext {
+  margin-top: 100px;
+}
+.objective__btnholder {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+.btn_prime {
+  background: none;
+  margin-bottom: 100px;
+  color: #000000;
+  border: 2px solid #000000;
+}
+.btn_prime:hover {
+  transition: 0.6s all;
+  scale: 1.01;
+}
+
+/* FOOTER */
+.footer {
+  background: #000000;
+  width: 100%;
+}
+.footer__text {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 20px 100px;
+  text-align: center;
+}
