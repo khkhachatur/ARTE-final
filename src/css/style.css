@@ -39,7 +39,7 @@ a {
 /* PROMO */
 
 .promo {
-  background: url(/src/img/main_bg.jpg) center center/cover no-repeat;
+  background: url(../img/main_bg.jpg) center center/cover no-repeat;
   filter: blur(1);
   width: 100%;
   height: 100vh;
